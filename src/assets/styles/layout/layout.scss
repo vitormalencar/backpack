@@ -1,0 +1,68 @@
+body {
+  color: #34495e;
+}
+.item-divider {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.button.disabled,
+.button[disabled] {
+  background: rgba(52, 73, 94, 0.40);
+}
+.notification-badage {
+  background-color: $assertive;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  display: block;
+  position: fixed;
+  right: 15px;
+  top: 10px;
+  z-index: 999;
+}
+.platform-ios .notification-badage {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  z-index: 999;
+}
+
+.platform-android .bar.bar-header {
+  height: 60px;
+}
+
+.platform-android .bar {
+  padding: 10px;
+  .notification-badage {
+    top: 18px;
+    z-index: 999;
+  }
+}
+
+.platform-android .has-header {
+  top: 60px;
+}
+.platform-android .bar .title {
+  line-height: 62px;
+  text-align: left;
+}
+
+// stuipid safary mess around and im need to do this
+.title.title-center.header-item {
+  left: 0 !important;
+  right: 0 !important;
+  text-align: center;
+}
+
+.np-row {
+  display: flex;
+  width: 100%;
+}
+.pane,
+meu .view {
+  background-color: #f8f6f6;
+}
+
+.item-complex .item-content,
+.item-radio .item-content {
+  padding: 0;
+}

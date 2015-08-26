@@ -1,0 +1,32 @@
+/************************************
+ *
+ *  Main Styles to compile. Here only @imports!
+ *
+ ************************************/
+ $positive: #00cba0 !default;
+ $assertive: #ec5096 !default;
+ $stable: #ebebeb !default;
+@import "./bower_components/ionic/scss/ionic.scss";
+@import "src/assets/styles/_variables.scss";
+@import "src/assets/styles/_fonts.scss";
+
+/**
+ * LAYOUT
+ */
+@import "src/assets/styles/layout/layout.scss";
+
+/**
+ * MENU
+ */
+/**
+ * VIEWS
+ */
+@import "src/app/components/login/login.style.scss";
+@import "src/app/components/chat/chat.style.scss";
+@import "src/assets/styles/templates/_report.scss";
+@import "src/app/components/events/events.style.scss";
+@import "src/assets/styles/templates/_report_show.scss";
+@import "src/app/components/sidemenu/sidemenu.style.scss";
+@import "src/app/components/events/events_show.style.scss";
+@import "src/app/components/dashboard/dashboard.style.scss";
+@import "src/app/components/notifications/notificatons.style.scss";

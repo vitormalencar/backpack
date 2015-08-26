@@ -1,0 +1,13 @@
+### Folders ###
+www
+plugins
+platforms
+node_modules
+bower_components
+
+### Files ###
+**/.log
+**/.tmp
+**/.DS_Store
+**/.sass-cache
+**/npm-debug.log

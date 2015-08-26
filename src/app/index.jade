@@ -1,0 +1,20 @@
+doctype html
+html
+head
+    meta(charset='utf-8')
+    meta(name='viewport', content='initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width')
+    title BackPack
+    link(href='css/style.css', rel='stylesheet')
+    link(href='css/ionic.app.css' rel='stylesheet')
+    // ionic/angularjs js
+    script(src='lib/ionic/js/ionic.bundle.js')
+    // cordova script (this will be a 404 during development)
+    script(src='cordova.js')
+    // your app's js
+    script(src='js/app.js')
+  body(ng-app='starter')
+    ion-pane
+      ion-header-bar.bar-dark
+        h1.title Backpack
+      ion-content.padding
+          img.logo(src='img/pack.png')

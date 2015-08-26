@@ -1,0 +1,57 @@
+.report_show {
+  pre {
+    font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif ;
+  }
+  .item {
+    text-align: center;
+    background-color: #dff0ec;
+    text-transform: capitalize;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  }
+  .card {
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    .title {
+      font-size: 18px;
+    }
+    .time {
+      font-size: 12px;
+      color: gray;
+    }
+    .description {
+      margin: 10px 0 40px;
+    }
+    .home_work {
+      padding: 20px;
+      position: relative;
+      width: 115%;
+      background-color: #f2fcfa;
+      left: -20px;
+      margin-top: 20px;
+      .icon-homework {
+        text-align: center;
+        margin: 10px auto;
+        font-weight: 300;
+
+        i {
+          font-size: 28px;
+          text-align: center;
+          color: $assertive;
+          vertical-align: middle;
+        }
+        span {
+          color: $assertive;
+          font-size: 16px;
+          margin-left: 5px;
+          vertical-align: middle;
+        }
+      }
+    }
+    button {
+      margin-top: 20px;
+      border-radius: 3px;
+      border: none;
+    }
+  }
+}
