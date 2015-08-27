@@ -3,4 +3,4 @@
 var gulp = require('gulp');
 
 // Default task
-module.exports = gulp.task('default', ['imagemin','sass','ngannotate', 'jade', 'watch', 'browser-sync', ]);
+module.exports = gulp.task('default', ['imagemin','sass', 'jade', 'watch','scripts','browser-sync', ]);

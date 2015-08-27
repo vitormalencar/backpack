@@ -14,4 +14,5 @@ module.exports = gulp.task('sass', function () {
 		.pipe(plugins.sass({errLogToConsole: true}))
 		.pipe(gulpif(env.p, plugins.minifyCss()))
 		.pipe(gulp.dest(paths.build.css))
+		.pipe(browserSync.stream());
 })

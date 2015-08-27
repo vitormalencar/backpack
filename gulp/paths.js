@@ -4,7 +4,7 @@ module.exports = {
 
 	source: {
 		js: './src/app/**/*.js',
-		sass: './scss/**/*.scss',
+		sass: 'scss/ionic.app.scss',
 		jade: './src/app/**/**/*.jade',
 		img: './src/assets/images/**/*.{jpg,png,gif}'
 	},
